@@ -1,0 +1,7 @@
+(line 25)
+Potentiometer p;
+AnalogInput snakeinp = new AnalogInput(Constants.AnalogEncoderInputID);
+// https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599719-potentiometers-measuring-joint-angle-or-linear-motion
+// https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/AnalogPotentiometer.html
+// https://www.andymark.com/products/dart-12-in-actuator-kit?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6Ok5hdmlnYXRpb246OlNlYXJjaFJlc3VsdHMvJTdCJTIycSUyMiUzQSUyMmFjdHVhdG9yJTIyJTdE#description
+p = new AnalogPotentiometer(snakeinp, fullRange, offset);
